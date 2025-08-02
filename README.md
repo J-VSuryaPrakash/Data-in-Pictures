@@ -1,38 +1,84 @@
-### 📝 **Project Title**
+# SkillCraft Internship Tasks
 
-  **Titanic Dataset - Exploratory Data Analysis (EDA)**
+This repository contains four data science tasks completed during my internship at SkillCraft Technology. Each task explores a different concept using Python and machine learning techniques.
 
-This project performs data cleaning and exploratory data analysis (EDA) on the Titanic dataset from Kaggle to uncover meaningful insights into survival patterns.
+---
 
+## 📁 Task 01: Bank Marketing Analysis
 
- 📊 **Objectives**
+### 🔹 Objective
+Predict whether a customer will subscribe to a term deposit based on marketing data.
 
-* Clean missing or inconsistent data
-* Analyze relationships between features (age, gender, class, fare)
-* Visualize patterns and survival rates
-* Interpret correlation between numerical features
+### 📊 Dataset
+- Source: UCI Bank Marketing Dataset
 
+### ⚙️ Methods Used
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Logistic Regression
 
-🔧 **Tools Used**
+### 📈 Outcome
+Achieved 85% accuracy using logistic regression.
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Google Colab
+---
 
+## 📁 Task 02: Classification Model
 
-### 🔍 **Key Insights**
+### 🔹 Objective
+Build a classification model to predict outcomes based on structured data.
 
-* Passengers in **1st class** were more likely to survive.
-* **Women** had a much higher survival rate than men.
-* Higher **fare** had a positive relation with survival.
-* **Younger passengers** had slightly better survival chances.
-* `Cabin` was dropped due to excessive missing values.
+### 📊 Dataset
+- Custom dataset provided by SkillCraft
 
+### ⚙️ Methods Used
+- Feature engineering
+- Decision Tree, Random Forest
+- Model evaluation (accuracy, precision, recall)
 
-### 📁 Files
+### 📈 Outcome
+Random Forest outperformed other models with 90% accuracy.
 
-* `titanic.csv` – Dataset used (loaded from URL)
-* `Titanic_EDA.ipynb` – Jupyter/Colab notebook with full analysis
+---
 
+## 📁 Task 03: Decision Tree Implementation
+
+### 🔹 Objective
+Implement and visualize a decision tree classifier.
+
+### 📊 Dataset
+- Synthetic dataset for binary classification
+
+### ⚙️ Methods Used
+- Manual tree construction
+- Visualization using `graphviz`
+
+### 📈 Outcome
+Clear decision boundaries and interpretable model structure.
+
+---
+
+## 📁 Task 04: Accident Data Analysis
+
+### 🔹 Objective
+Analyze accident data to identify patterns and risk factors.
+
+### 📊 Dataset
+- Accident dataset with location, time, and severity info
+
+### ⚙️ Methods Used
+- Data cleaning
+- EDA with plots
+- Severity prediction using classification models
+
+### 📈 Outcome
+Identified key factors influencing accident severity.
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+
+## 📂 Repository Structure
